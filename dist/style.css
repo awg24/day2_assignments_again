@@ -3,6 +3,8 @@
 	height: 1157px;
 	background-color: rgb(50,63,82);
 	min-width: 470px;
+	background-image: url(images/crowd.jpg);
+	background-size: 100% 100%;
 }
 .boarder {
 	height: 40px;
@@ -19,7 +21,7 @@
 .button {
 	height: 44px;
 	background-color: rgb(17,139,192);
-	border: 10px solid rgb(31,40,52);
+	border: 10px solid rgba(31,40,52,.5);
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-left: 120px;
@@ -32,12 +34,28 @@
 	padding-top: 9px;
 }
 .whiteBox {
-	background-color: white;
+	background-color: rgba(255,255,255,0);
 	height: 47px;
 	margin-right: 78px;
 	margin-left: 78px;
 	padding-top: 10px;
 	min-width: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	
+}
+.whiteBox > span {
+	background-color: rgba(255,255,255,0);
+	height: 47px;
+	margin-right: 78px;
+	margin-left: 78px;
+	padding-top: 10px;
+	min-width: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
 	
 }
 .veryLightBlueBox {
@@ -92,6 +110,8 @@
 	width:32px;
 	background-color: white;
 	margin-left: 15px;
+	background-image: url(images/logo.png);
+	background-size: 32px 32px;
 }
 .shadowBox {
 	height: 35px;
@@ -110,21 +130,24 @@
 	padding-top: 10px;
 }
 .shadow {
-	background-color: rgb(96,109,129);
-	height: 30px;
-	margin-right: 410px;
+	background-color: rgba(96,109,129,0);
+	height: 60px;
+	margin-right: 380px;
 	margin-top: 10px;
 	margin-left: 0px;
 	min-width: 105px;
 	max-width: 105px;
+	background-image: url(images/tablet.png);
+	background-repeat: no-repeat;
+	background-position: right;
 
 }
 .shadow2 {
-	background-color: rgb(50,63,82);
+	background-color: rgba(50,63,82,0);
 	height: 52px;
-	margin-left: 80px;
+	margin-left: 100px;
 	margin-top: -50px;
-	margin-right: 0px;
+	margin-right: 300px;
 	color: white;
 	text-align: left;
 	font-weight: bold;
@@ -144,12 +167,16 @@
 }
 .whiteBoxShadow {
 	height: 60px;
-	margin-left: 190px;
-	margin-right: 190px;
+	border-radius: 100%;
+	width: 60px;
+	margin-left: 47.5%;
+	margin-right: 47.5%; 
 	margin-top: 20px;
 	background-color: rgb(183,193,198);
 	min-height: 70px;
 	min-width: 70px;
+	background-repeat: no-repeat;
+	background-position: center; 
 
 }
 .whiteBoxShadow2 {
