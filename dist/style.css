@@ -1,0 +1,114 @@
+
+.background {
+	height: 1157px;
+	background-color: rgb(50,63,82);
+	min-width: 470px;
+}
+.boarder {
+	height: 40px;
+	padding-top: 10px;
+	background-color: rgb(17,139,192);
+}
+.text {
+	text-align: center;
+	font-family: Verdana;
+	font-size: 30px;
+	color: white;
+	padding-top: 165px;
+}
+.button {
+	height: 53px;
+	background-color: rgb(17,139,192);
+	border: 10px solid rgb(31,40,52);
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.whiteBox {
+	background-color: white;
+	height: 47px;
+	margin-right: 78px;
+	margin-left: 78px;
+	padding-top: 10px;
+	min-width: 15px;
+	
+}
+.veryLightBlueBox {
+	height: 190px;
+	background-color: rgb(232,240,245);
+	min-width: 470px;
+}
+.nextBackground {
+	height: 1575px;
+	background-color: rgb(209,211,215);
+	min-width: 470px;
+}
+.otherWhiteBox {
+	height: 215px;
+	background-color: white;
+	padding-top: 20px;
+	margin: 20px 15px 20px 15px;
+	min-width: 440px;
+}
+.blackBox {
+	height: 170px;
+	background-color: black;
+}
+.lightBlue {
+	height: 53px;
+	background-color: rgb(17,139,192);
+	margin-top: 100px;
+	margin-right: 125px;
+	margin-left: 125px;
+}
+span {
+	margin-right: 20px;
+}
+.smallWhiteBox {
+	height: 32px;
+	width:32px;
+	background-color: white;
+	margin-left: 15px;
+}
+.shadowBox {
+	height: 50px;
+	width: 70px;
+	background-color: rgb(0,110,167);
+	margin-top: -10px;
+	float: right;	
+}
+.shadow {
+	background-color: rgb(96,109,129);
+	height: 47px;
+	margin-right: 410px;
+	margin-left: 0px;
+	min-width: 105px;
+	max-width: 105px;
+
+}
+.shadow2 {
+	background-color: rgb(96,109,129);
+	height: 50px;
+	margin-left: 120px;
+	margin-top: -57px;
+	margin-right: 0px;
+}
+.whiteBoxShadow {
+	height: 60px;
+	margin-left: 190px;
+	margin-right: 190px;
+	margin-top: 20px;
+	background-color: rgb(183,193,198);
+	min-height: 70px;
+	min-width: 70px;
+
+}
+.whiteBoxShadow2 {
+	height: 20px;
+	margin-left: 17px;
+	margin-right: 17px;
+	margin-top: 12px;
+	margin-bottom: 17px;
+	background-color: rgb(183,193,198);
+}
