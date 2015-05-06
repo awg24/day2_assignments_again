@@ -11,19 +11,25 @@
 }
 .text {
 	text-align: center;
-	font-family: Verdana;
+	font-family: Arial;
 	font-size: 30px;
 	color: white;
 	padding-top: 165px;
 }
 .button {
-	height: 53px;
+	height: 44px;
 	background-color: rgb(17,139,192);
 	border: 10px solid rgb(31,40,52);
 	margin: 0 auto;
 	margin-top: 30px;
 	margin-left: 120px;
 	margin-right: 120px;
+	text-align: center;
+	font-family: Arial;
+	font-size: bold;
+	font-size: 30px;
+	color: white;
+	padding-top: 9px;
 }
 .whiteBox {
 	background-color: white;
@@ -35,9 +41,18 @@
 	
 }
 .veryLightBlueBox {
-	height: 190px;
+	height: 160px;
 	background-color: rgb(232,240,245);
 	min-width: 470px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 35px;
+	padding-top: 30px;
+}  
+.veryLightBlueBox > span { 
+	font-family: Arial;
+	font-size: 25px;
+	margin-bottom: 
 }
 .nextBackground {
 	height: 1575px;
@@ -56,13 +71,20 @@
 	background-color: black;
 }
 .lightBlue {
-	height: 53px;
+	height: 48px;
 	background-color: rgb(17,139,192);
 	margin-top: 100px;
 	margin-right: 125px;
 	margin-left: 125px;
+	padding-top: 5px;
 }
-span {
+.lightBlue > span {
+	margin-top: 10px;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+}
+.navBot {
 	margin-right: 20px;
 }
 .smallWhiteBox {
@@ -72,27 +94,53 @@ span {
 	margin-left: 15px;
 }
 .shadowBox {
-	height: 50px;
+	height: 35px;
 	width: 70px;
 	background-color: rgb(0,110,167);
 	margin-top: -10px;
-	float: right;	
+	float: right;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+	color: white;
+	padding-top: 15px;	
+}
+.shadowBox > span {
+	margin-top: 10px;
+	padding-top: 10px;
 }
 .shadow {
 	background-color: rgb(96,109,129);
-	height: 47px;
+	height: 30px;
 	margin-right: 410px;
+	margin-top: 10px;
 	margin-left: 0px;
 	min-width: 105px;
 	max-width: 105px;
 
 }
 .shadow2 {
-	background-color: rgb(96,109,129);
-	height: 50px;
-	margin-left: 120px;
-	margin-top: -57px;
+	background-color: rgb(50,63,82);
+	height: 52px;
+	margin-left: 80px;
+	margin-top: -50px;
 	margin-right: 0px;
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 20px;
+	padding-top: 5px;
+}
+.second {
+	font-weight: normal;
+	font-size: 15px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.first {
+	margin-left: 15px;
+	margin-top: 5px;
 }
 .whiteBoxShadow {
 	height: 60px;
@@ -110,5 +158,11 @@ span {
 	margin-right: 17px;
 	margin-top: 12px;
 	margin-bottom: 17px;
-	background-color: rgb(183,193,198);
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+}
+.whiteBoxShadow2 > span {
+	color: rgb(66,98,119);
 }
